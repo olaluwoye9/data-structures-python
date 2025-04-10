@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="None">
         
-        
+        <link rel="canonical" href="https://olaluwoye9.github.io/data-structures-python/">
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
+        <title>Data-Structures-Python</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/fontawesome.min.css" rel="stylesheet">
         <link href="css/brands.min.css" rel="stylesheet">
@@ -24,7 +24,7 @@
     <body class="homepage">
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">My Docs</a>
+                <a class="navbar-brand" href=".">Data-Structures-Python</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -76,6 +76,9 @@
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/olaluwoye9/data-structures-python.git/edit/master/docs/index.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -100,15 +103,38 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+            <li class="nav-item" data-bs-level="2"><a href="#data-structures-python" class="nav-link">Data-Structures-Python</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#why-this-project" class="nav-link">Why This Project?</a>
+              <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-data-structures-python" class="nav-link">Welcome to data-structures-python</a>
+            <li class="nav-item" data-bs-level="2"><a href="#whats-inside" class="nav-link">🧠 What’s Inside?</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#project-structure" class="nav-link">🚀 Project Structure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#installation" class="nav-link">🚀 Installation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#example-usage" class="nav-link">Example Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#author" class="nav-link">Author</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#live-documentation" class="nav-link">Live Documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -125,22 +151,349 @@
 <li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h2 id="data-structures-python">Data-Structures-Python</h2>
+<p>A beginner-friendly Python package that implements classic data structures from scratch using object-oriented Python. Designed to help learners understand how data structures work under the hood without relying on Python’s built-in abstractions.</p>
+<p>Whether you're a coding bootcamp student, computer science learner, or self-taught developer — this package is for you.</p>
+<h2 id="why-this-project">Why This Project?</h2>
+<p>Most learners rely on built-in Python data types (lists, sets, dicts) without truly understanding how they work under the hood. While these data types provide convenient abstractions, knowing how to implement core data structures from scratch helps solidify your understanding of programming concepts.</p>
+<p>This project aims to bridge that gap by providing clear and simple implementations of fundamental data structures. It’s an ideal resource for:</p>
+<ul>
+<li>
+<p>Beginners: Anyone learning to code and wants to understand data structures.</p>
+</li>
+<li>
+<p>Bootcamp students: Those preparing for technical interviews.</p>
+</li>
+<li>
+<p>Software engineers: Developers transitioning into fields that require data structure knowledge.</p>
+</li>
+</ul>
+<h2 id="whats-inside">🧠 What’s Inside?</h2>
+<p>This package provides detailed implementations and clean interfaces for the following data structures:</p>
+<table>
+<thead>
+<tr>
+<th>Data Structure</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✅ <strong>Array</strong></td>
+<td>Dynamic array with index-based operations</td>
+</tr>
+<tr>
+<td>✅ <strong>Stack</strong></td>
+<td>LIFO stack implemented using both a Python list and a linked list</td>
+</tr>
+<tr>
+<td>✅ <strong>Queue</strong></td>
+<td>FIFO queue implemented using a list</td>
+</tr>
+<tr>
+<td>✅ <strong>Linked List</strong></td>
+<td>Singly linked list with insert, delete, search, and update operations</td>
+</tr>
+<tr>
+<td>✅ <strong>Doubly Linked List</strong></td>
+<td>Bi-directional traversal with flexible insert/delete</td>
+</tr>
+<tr>
+<td>✅ <strong>Binary Search Tree (BST)</strong></td>
+<td>Recursive insert, search, and in-order traversal for efficient searching</td>
+</tr>
+<tr>
+<td>✅ <strong>Graph</strong></td>
+<td>Undirected graph using an adjacency list to represent connections between node</td>
+</tr>
+</tbody>
+</table>
+<p>All implementations are <strong>self-contained</strong>, easy to understand, and extensible for future improvements (e.g., weighted graphs, AVL trees, etc.).</p>
+<hr />
+<h2 id="project-structure">🚀 Project Structure</h2>
+<p>The data-structures-python package is organized into several modules and folders:</p>
+<p>data-structures-python/</p>
+<table>
+<thead>
+<tr>
+<th><strong>Data Structure</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>✅ <em>data_structures</em></td>
+<td>Core package code</td>
+</tr>
+<tr>
+<td>✅ <em>array.py</em></td>
+<td>Stack using Python list</td>
+</tr>
+<tr>
+<td>✅ <em>stack_linked.py</em></td>
+<td>Stack using Linked List</td>
+</tr>
+<tr>
+<td>✅ <em>queue.py</em></td>
+<td>Queue implementation</td>
+</tr>
+<tr>
+<td>✅ <em>linked_list.py</em></td>
+<td>Singly Linked List implementation</td>
+</tr>
+<tr>
+<td>✅ <em>doubly_linked_list.py</em></td>
+<td>Doubly Linked List implementation</td>
+</tr>
+<tr>
+<td>✅ <em>Graph.py</em></td>
+<td>Graph implementation</td>
+</tr>
+<tr>
+<td><strong>examples</strong>/</td>
+<td></td>
+</tr>
+<tr>
+<td>----------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td>✅ <em>stack_example.ipynb</em></td>
+<td>Example showing stack usage</td>
+</tr>
+<tr>
+<td>✅ <em>queue_example.ipynb</em></td>
+<td>Example showing queue usage</td>
+</tr>
+<tr>
+<td>...</td>
+<td>Other examples for different data structures</td>
+</tr>
+<tr>
+<td><strong>README.md</strong>/</td>
+<td>Project overview and documentation</td>
+</tr>
+<tr>
+<td>----------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>LICENSE</strong>/</td>
+<td>License file for the project</td>
+</tr>
+<tr>
+<td>----------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>setup.py</strong> /</td>
+<td>Setup script for installing the package</td>
+</tr>
+<tr>
+<td>----------------------</td>
+<td>-------------</td>
+</tr>
+<tr>
+<td><strong>pyproject.toml</strong> /</td>
+<td>Project metadata and configuration</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="installation">🚀 Installation</h2>
+<p>Once the package is published on PyPI (Python Package Index), you can install it using the following command:</p>
+<p>Once published on PyPI, install using:</p>
+<pre><code class="language-bash">pip install data-structures-python
+
+## Manual Installation
+You can also install the package directly from GitHub for development or testing purposes:
+
+pip install git+https://github.com/olaluwoye9/data-structures-python.git
+
 </code></pre>
-<h1 id="welcome-to-data-structures-python">Welcome to data-structures-python</h1>
-<p>This is a beginner-friendly project to help you understand how core data structures work, by implementing them from scratch in Python.</p>
-<p>Use the sidebar to explore structures like Stacks, Queues, Trees, and Graphs.</p>
-<p>Explore the sidebar for usage and explanation of:
-- Arrays
-- Stacks
-- Queues
-- Linked Lists
-- Trees
-- Graphs</p></div>
+<hr />
+<h2 id="example-usage">Example Usage</h2>
+<p>Here’s a simple example of how to use the Array class from the package:</p>
+<p><strong>1. Array</strong></p>
+<p>from data_structures.array import Array</p>
+<ul>
+<li>
+<p>arr = Array() # Create a new array</p>
+</li>
+<li>
+<p>arr.insert(10)</p>
+</li>
+<li>
+<p>arr.insert(20)</p>
+</li>
+<li>
+<p>arr.insert(30)</p>
+</li>
+<li>
+<p>print(arr.access(1))  # Access and print an item by index</p>
+</li>
+</ul>
+<p><strong>2. Stack</strong></p>
+<p>from data_structures.stack import Stack</p>
+<ul>
+<li>
+<p>stack = Stack() # Create a new stack</p>
+</li>
+<li>
+<p>stack.push(10) # Push some items to the stack</p>
+</li>
+<li>
+<p>stack.push(20)</p>
+</li>
+<li>
+<p>stack.push(30)</p>
+</li>
+<li>
+<p>print(stack.pop())  # Pop an item from the stack</p>
+</li>
+<li>
+<p>print(stack.peek())  # Peek the top item</p>
+</li>
+<li>
+<p>print(stack.is_empty())  # Check if the stack is empty</p>
+</li>
+</ul>
+<p><strong>3. Queue</strong></p>
+<p>from data_structures.queue import Queue</p>
+<ul>
+<li>
+<p>queue = Queue() # Create a new queue</p>
+</li>
+<li>
+<p>queue.enqueue(10) # Enqueue some items</p>
+</li>
+<li>
+<p>queue.enqueue(20)</p>
+</li>
+<li>
+<p>queue.enqueue(30)</p>
+</li>
+<li>
+<p>print(queue.dequeue())  # Dequeue an item from the queue</p>
+</li>
+<li>
+<p>print(queue.peek())  # Peek the front item </p>
+</li>
+<li>
+<p>print(queue.is_empty())  # Check if the queue is empty</p>
+</li>
+</ul>
+<p><strong>4. Linked List</strong></p>
+<p>from data_structures.linked_list import LinkedList</p>
+<ul>
+<li>
+<p>linked_list = LinkedList() # Create a new linked list</p>
+</li>
+<li>
+<p>linked_list.insert_at_beginning(10) # Insert items at the beginning</p>
+</li>
+<li>
+<p>linked_list.insert_at_beginning(20)</p>
+</li>
+<li>
+<p>linked_list.insert_at_beginning(30)</p>
+</li>
+<li>
+<p>linked_list.display()  # Display the linked list</p>
+</li>
+<li>
+<p>linked_list.delete_item(20) # Delete an item</p>
+</li>
+<li>
+<p>linked_list.display()  # Display the linked list after deletion</p>
+</li>
+<li>
+<p>print(linked_list.search(10))  # Search for an item</p>
+</li>
+</ul>
+<p><strong>5. Doubly Linked List</strong></p>
+<p>from data_structures.doubly_linked_list import DoublyLinkedList</p>
+<ul>
+<li>
+<p>dll = DoublyLinkedList() # Create a new doubly linked list</p>
+</li>
+<li>
+<p>dll.insert_at_beginning(10) # Insert at the beginning</p>
+</li>
+<li>
+<p>dll.insert_at_beginning(20)</p>
+</li>
+<li>
+<p>dll.display()  # Display the doubly linked list</p>
+</li>
+<li>
+<p>dll.insert_at_end(30) # Insert at the end</p>
+</li>
+<li>
+<p>dll.display()  # Display after insertion</p>
+</li>
+<li>
+<p>dll.delete_item(10) # Delete an item</p>
+</li>
+<li>
+<p>dll.display()  </p>
+</li>
+</ul>
+<p><strong>6. Binary Search Tree (BST)</strong></p>
+<p>from data_structures.tree import BinarySearchTree</p>
+<ul>
+<li>
+<p>bst = BinarySearchTree() # Create a new binary search tree</p>
+</li>
+<li>
+<p>bst.insert(20)  # Insert some values</p>
+</li>
+<li>
+<p>bst.insert(10)</p>
+</li>
+<li>
+<p>bst.insert(30)</p>
+</li>
+<li>
+<p>print(bst.search(10)) # Search for a value</p>
+</li>
+<li>
+<p>print(bst.search(25))  </p>
+</li>
+<li>
+<p>bst.inorder_traversal() # In-order traversal</p>
+</li>
+</ul>
+<p><strong>7. Graph</strong></p>
+<p>from data_structures.graph import Graph</p>
+<ul>
+<li>
+<p>graph = Graph() # Create a new graph</p>
+</li>
+<li>
+<p>graph.add_edge('A', 'B') # Add nodes and edges</p>
+</li>
+<li>
+<p>graph.add_edge('A', 'C')</p>
+</li>
+<li>
+<p>graph.add_edge('B', 'D')</p>
+</li>
+<li>
+<p>graph.display()  # Display the graph</p>
+</li>
+</ul>
+<p><strong>For Other Data Structures:</strong></p>
+<p>For additional details on Stacks, Queues, Linked Lists, Binary Search Trees, Graphs, and other data structures, please refer to the documentation. The implementation is fully self-contained, and you can easily modify or extend it as needed. Whether you want to create a priority queue, implement an AVL tree, or work with weighted graphs, the package can be extended to meet your requirements.</p>
+<hr />
+<h2 id="author">Author</h2>
+<p>Created by: Olalekan T. OLALUWOYE — MSc; Statistics &amp; Big Data.</p>
+<p>📧 Email: oolaluwoye@aimsammi.org, olaluwoye9@gmail.com<br />
+🔗 LinkedIn: <a href="linkedin.com/in/olaluwoye-olalekan-612a92147">linkedin.com/in/olaluwoye-olalekan</a></p>
+<hr />
+<h2 id="live-documentation">Live Documentation</h2>
+<p>Access the live documentation here:<br />
+👉 <a href="https://yourusername.github.io/data-structures-python/">Live Docs - data-structures-python</a></p></div>
             </div>
         </div>
 
@@ -222,5 +575,5 @@ docs/
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-04-09 16:33:59.371575+00:00
+Build Date UTC : 2025-04-10 21:26:06.221206+00:00
 -->
