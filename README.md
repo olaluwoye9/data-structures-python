@@ -74,5 +74,5 @@ Created by [Your Olaluwoye Olalekan Taofeek] — MSc in Statistics and Big Data.
 ## Live Documentation
 
 Access the live documentation here:  
-👉 [Live Docs - data-structures-python](https://yourusername.github.io/data-structures-python/)
+👉 [Live Docs - data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
 
