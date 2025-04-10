@@ -71,7 +71,7 @@ Once the package is published on PyPI (Python Package Index), you can install it
 Once published on PyPI, install using:
 
 ```bash
-pip install data-structures-python
+pip install Olaluwoye-data-structures
 
 ## Manual Installation
 You can also install the package directly from GitHub for development or testing purposes:

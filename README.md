@@ -34,24 +34,33 @@ All implementations are **self-contained**, easy to understand, and extensible f
 
 ---
 
+## 🚀 Project Structure
+
+The data-structures-python package is organized into several modules and folders:
+
 data-structures-python/
-├── data_structures/         # Core package code
-│   ├── array.py
-│   ├── stack.py
-│   ├── stack_linked.py
-│   ├── queue.py
-│   ├── linked_list.py
-│   ├── doubly_linked_list.py
-│   ├── tree.py
-│   └── graph.py
-├── examples/                # Jupyter notebooks (demos)
-│   ├── stack_example.ipynb
-│   ├── queue_example.ipynb
-│   ├── ...
-├── README.md
-├── LICENSE
-├── setup.py
-└── pyproject.toml
+
+| **Data Structure**      | **Description** |
+|----------------------|-------------|
+| ✅ *data_structures*          | Core package code |
+| ✅ *array.py*         |Stack using Python list |
+| ✅ *stack_linked.py*         | Stack using Linked List |
+| ✅ *queue.py*    | Queue implementation |
+| ✅ *linked_list.py* | Singly Linked List implementation |
+| ✅ *doubly_linked_list.py* | Doubly Linked List implementation|
+| ✅ *Graph.py*          | Graph implementation |
+| **examples**/       |              |
+|----------------------|-------------|
+| ✅ *stack_example.ipynb* | Example showing stack usage |
+| ✅ *queue_example.ipynb* | Example showing queue usage |
+| ...                        | Other examples for different data structures | 
+| **README.md**/                 | Project overview and documentation|
+|----------------------|-------------|
+| **LICENSE**/             | License file for the project |
+|----------------------|-------------|
+| **setup.py** /           | Setup script for installing the package |
+|----------------------|-------------|
+| **pyproject.toml** /     | Project metadata and configuration |
 
 ---
 
@@ -60,12 +69,12 @@ data-structures-python/
 Once published on PyPI, install using:
 
 ```bash
-pip install data-structures-python
+pip install Olaluwoye-data-structures
 
 ---
 ## Author
 
-Created by [Your Olaluwoye Olalekan Taofeek] — MSc in Statistics and Big Data.
+Created by: Olaluwoye Olalekan Taofeek — MSc, Statistics and Big Data.
 
 📧 Email: oolaluwoye@aimsammi.org  
 🔗 LinkedIn: [linkedin.com/in/olaluwoye-olalekan](linkedin.com/in/olaluwoye-olalekan-612a92147)
@@ -74,5 +83,5 @@ Created by [Your Olaluwoye Olalekan Taofeek] — MSc in Statistics and Big Data.
 ## Live Documentation
 
 Access the live documentation here:  
-👉 [Live Docs - data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
+👉 Live Docs - [data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
 
