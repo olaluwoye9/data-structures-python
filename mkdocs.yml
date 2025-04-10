@@ -1,0 +1,19 @@
+site_name: Data-Structures-Python
+site_url: https://olaluwoye9.github.io/data-structures-python
+repo_url: https://github.com/olaluwoye9/data-structures-python.git
+#repo_name: GitHub
+#theme:
+#  name: material
+#  palette:
+ #   scheme: default
+ #   primary: green
+ #   accent: teal
+#nav:
+ # - Home: index.md
+ # - Getting Started: getting-started.md
+ # - Array: array.md
+ # - Stack: stack.md
+ # - Linked List: linked-list.md
+ # - Queue: queue.md
+ # - Binary Tree: tree.md
+ # - Graph: graph.md
