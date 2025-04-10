@@ -216,13 +216,13 @@ For additional details on Stacks, Queues, Linked Lists, Binary Search Trees, Gra
 Created by: Olalekan T. OLALUWOYE — MSc; Statistics & Big Data.
 
 📧 Email: oolaluwoye@aimsammi.org, olaluwoye9@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/olaluwoye-olalekan](linkedin.com/in/olaluwoye-olalekan-612a92147)
+🔗 LinkedIn: [https://www.linkedin.com/in/olaluwoye-olalekan-612a92147](https://www.linkedin.com/in/olaluwoye-olalekan-612a92147)
 
 ---
 
 ## Live Documentation
 
 Access the live documentation here:  
-👉 [Live Docs - data-structures-python](https://yourusername.github.io/data-structures-python/)
+👉 [Live Docs - data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
 
 

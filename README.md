@@ -76,12 +76,12 @@ pip install Olaluwoye-data-structures
 
 Created by: Olaluwoye Olalekan Taofeek — MSc, Statistics and Big Data.
 
-📧 Email: oolaluwoye@aimsammi.org  
-🔗 LinkedIn: [linkedin.com/in/olaluwoye-olalekan](linkedin.com/in/olaluwoye-olalekan-612a92147)
+📧 Email: oolaluwoye@aimsammi.org, olaluwoye9@gmail.com  
+🔗 LinkedIn: [https://www.linkedin.com/in/olaluwoye-olalekan-612a92147](https://www.linkedin.com/in/olaluwoye-olalekan-612a92147)
 
 ---
 ## Live Documentation
 
 Access the live documentation here:  
-👉 Live Docs - [data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
+👉 [Live Docs - data-structures-python](https://olaluwoye9.github.io/data-structures-python/)
 
