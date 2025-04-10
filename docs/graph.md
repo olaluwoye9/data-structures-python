@@ -16,10 +16,15 @@ The `Graph` class uses an **adjacency list** to represent connections.
 ## Example
 
 ```python
+
 from data_structures.graph import Graph
 
-g = Graph()
-g.add_node("A")
-g.add_node("B")
-g.add_edge("A", "B")
-print(g.graph)
+- g = Graph()
+
+- g.add_node("A")
+
+- g.add_node("B")
+
+- g.add_edge("A", "B")
+
+- print(g.graph)

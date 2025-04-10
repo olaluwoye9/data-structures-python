@@ -21,9 +21,13 @@ The `BinarySearchTree` class organizes nodes such that:
 from data_structures.tree import BinarySearchTree
 
 bst = BinarySearchTree()
-bst.insert(50)
-bst.insert(30)
-bst.insert(70)
 
-print(bst.search(30))  
-print(bst.inorder_traversal())  
+- bst.insert(50)
+
+- bst.insert(30)
+
+- bst.insert(70)
+
+- print(bst.search(30))  
+
+- print(bst.inorder_traversal())  

@@ -225,9 +225,9 @@ For additional details on Stacks, Queues, Linked Lists, Binary Search Trees, Gra
 
 ## Author
 
-Created by [Your Olaluwoye Olalekan Taofeek] — MSc in Statistics and Big Data.
+Created by: Olalekan T. OLALUWOYE — MSc; Statistics & Big Data.
 
-📧 Email: oolaluwoye@aimsammi.org  
+📧 Email: oolaluwoye@aimsammi.org, olaluwoye9@gmail.com  
 🔗 LinkedIn: [linkedin.com/in/olaluwoye-olalekan](linkedin.com/in/olaluwoye-olalekan-612a92147)
 
 ---

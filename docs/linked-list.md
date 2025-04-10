@@ -21,8 +21,13 @@ The `LinkedList` class supports basic operations using singly or doubly linked n
 ## Example
 
 ```python
-ll = LinkedList()
-ll.insertAtBeginning(1)
-ll.insertAtEnd(3)
-ll.insertAfter(0, 2)
-ll.display()
+
+- ll = LinkedList()
+
+- ll.insertAtBeginning(1)
+
+- ll.insertAtEnd(3)
+
+- ll.insertAfter(0, 2)
+
+- ll.display()

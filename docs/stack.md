@@ -20,8 +20,11 @@ A **Last-In-First-Out (LIFO)** structure implemented in two ways:
 ```python
 from data_structures.stack import Stack
 
-s = Stack()
-s.push(1)
-s.push(2)
-print(s.pop())  
+- s = Stack()
+
+- s.push(1)
+
+- s.push(2)
+
+- print(s.pop())  
 

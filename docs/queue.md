@@ -19,7 +19,10 @@ The `Queue` class follows **First-In-First-Out (FIFO)** behavior.
 ```python
 from data_structures.queue import Queue
 
-q = Queue()
-q.enqueue(10)
-q.enqueue(20)
-print(q.dequeue())  # 10
+- q = Queue()
+
+- q.enqueue(10)
+
+- q.enqueue(20)
+
+- print(q.dequeue()) 

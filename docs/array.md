@@ -24,9 +24,14 @@ The `Array` class mimics a dynamic list with operations for insertion, deletion,
 ```python
 from data_structures.array import Array
 
-arr = Array()
-arr.insert(5)
-arr.insert(10)
-arr.insert_at(1, 7)
-arr.update(2, 20)
-arr.display()
+- arr = Array()
+
+- arr.insert(5)
+
+- arr.insert(10)
+
+- arr.insert_at(1, 7)
+
+- arr.update(2, 20)
+
+- arr.display()
